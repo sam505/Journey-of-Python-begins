@@ -1,0 +1,13 @@
+a = input("Enter the first number: ")
+b = input("Enter the second number: ")
+add = int(a) + int(b)
+diff = int(a) - int(b)
+product = int(a) * int(b)
+division = int(a) / int(b)
+modulus = int(a) % int(b)
+
+print("The sum of the two numbers is " + str(add))
+print("The difference of the two numbers is " + str(diff))
+print("The product of the two numbers is " + str(product))
+print("The division of the two numbers is " + str(division))
+print("The modulus of the two numbers is " + str(modulus))
