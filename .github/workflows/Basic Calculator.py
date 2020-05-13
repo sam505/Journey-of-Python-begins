@@ -1,13 +1,14 @@
 a = input("Enter the first number: ")
 b = input("Enter the second number: ")
-add = int(a) + int(b)
-diff = int(a) - int(b)
-product = int(a) * int(b)
-division = int(a) / int(b)
-modulus = int(a) % int(b)
+operator = input("Enter your preferred operation: ")
 
-print("The sum of the two numbers is " + str(add))
-print("The difference of the two numbers is " + str(diff))
-print("The product of the two numbers is " + str(product))
-print("The division of the two numbers is " + str(division))
-print("The modulus of the two numbers is " + str(modulus))
+if operator == "Addittion" or operator =="addition" or operator =="ADDITION":
+    print(int(a) + int(b))
+elif operator == "Subtraction" or operator =="subtraction" or operator =="SUBTRACTION":
+    print(int(a) - int(b))
+elif operator == "Multiplication" or operator =="multiplication" or operator =="MULTIPLICATION":
+    print(int(a) * int(b))
+elif operator == "Division" or operator =="division" or operator =="DIVISION":
+    print(int(a) / int(b))
+else:
+    print("Inavalid operator")
